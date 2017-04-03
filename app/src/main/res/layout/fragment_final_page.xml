@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/chooseGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/spans_number"
+        android:textAlignment="gravity"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <RadioGroup
+        android:id="@+id/sizeChoosing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseGrid"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/size57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5:7"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/size46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4:6"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/chooseTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sizeChoosing"
+        android:layout_marginTop="50dp"
+        android:gravity="start"
+        android:text="Choose your preferred theme mode"
+        android:textAlignment="gravity"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <RadioGroup
+        android:id="@+id/themeChoosing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseTheme"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/lightTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/darkTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="switchToActivity"
+        android:text="@string/next" />
+
+</RelativeLayout>

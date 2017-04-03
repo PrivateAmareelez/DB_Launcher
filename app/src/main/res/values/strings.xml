@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DB_Launcher</string>
+    <string name="next">Next</string>
+    <string name="application_icon">Application icon</string>
+    <string name="Titlename">DB_Launcher</string>
+    <string name="welcome_message">Welcome to my awesome launcher!</string>
+    <string name="you_can_nav">You can navigate apps...</string>
+    <string name="app_squares">app_squares</string>
+    <string name="apps_delete">... and also delete theme !</string>
+    <string name="spans_number">Choose your grid spans number (portrait:landscape)</string>
+    <string name="popular">Popular</string>
+</resources>
